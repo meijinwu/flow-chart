@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T04:30:31.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9VGzbigUKT939RStVn5o" version="20.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T04:40:44.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="vlVKCRM07nSBdRhwcHZZ" version="20.2.1" type="github">
   <diagram id="5VnuPamsWgsb6HcGCBo6" name="第 1 页">
     <mxGraphModel dx="1038" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,8 +16,20 @@
         <mxCell id="oj_4OXBv_ezFS3XAdGfc-2" value="用户名，密码，验证码校验" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="201" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oj_4OXBv_ezFS3XAdGfc-4" value="创建令牌先创建刷新令牌再创建访问令牌其实都是uuid生成&lt;br&gt;访问令牌和刷新令牌都有持久化到数据库&lt;br&gt;访问令牌会额外放到redis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="oj_4OXBv_ezFS3XAdGfc-4" value="创建令牌对象先创建刷新令牌再创建访问令牌其实都是uuid生成&lt;br&gt;访问令牌和刷新令牌都有持久化到数据库&lt;br&gt;访问令牌会额外放到redis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="107.5" y="320" width="175" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="oj_4OXBv_ezFS3XAdGfc-6" value="过滤器校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442.5" y="80" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="oj_4OXBv_ezFS3XAdGfc-7" value="从request中获取token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="427.5" y="201" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oj_4OXBv_ezFS3XAdGfc-8" value="token校验存在则&lt;br&gt;基于查询出访问令牌对象构建登录用户" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="320" width="175" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="oj_4OXBv_ezFS3XAdGfc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oj_4OXBv_ezFS3XAdGfc-8" target="oj_4OXBv_ezFS3XAdGfc-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
