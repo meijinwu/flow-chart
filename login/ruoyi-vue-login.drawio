@@ -1,46 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T01:35:21.230Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="93s407kUzazGDkqKNXbe" version="20.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T06:44:36.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="w_JXCMpmtApjIVtaiRKB" version="20.2.8" type="github">
   <diagram id="ZNL0ltOJPifKmFEmUaxB" name="第 1 页">
     <mxGraphModel dx="1038" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-1" target="C3ZgItmLCDIt8Vd-u6fF-2">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-1" target="C3ZgItmLCDIt8Vd-u6fF-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="112.5" y="40" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-2" target="C3ZgItmLCDIt8Vd-u6fF-4">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-2" target="C3ZgItmLCDIt8Vd-u6fF-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-2" value="输入用户名、密码、验证码" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-2" value="输入用户名、密码、验证码" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="63.75" y="140" width="147.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-4" target="C3ZgItmLCDIt8Vd-u6fF-6">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-4" target="C3ZgItmLCDIt8Vd-u6fF-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-4" target="C3ZgItmLCDIt8Vd-u6fF-8">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-4" target="C3ZgItmLCDIt8Vd-u6fF-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-4" value="校验通过，生成token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-4" value="校验通过，生成token" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="77.5" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-6" value="把claims再通过JWT加密&lt;br&gt;返回前端的是JWTtoken" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-6" value="把claims再通过JWT加密&lt;br&gt;返回前端的是JWTtoken" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="77.5" y="480" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-8" value="先生成uuid的token&lt;br&gt;再在登录用户设置该token&lt;br&gt;redis保存（login_tokens:uuid，loginUser）保存登录用户&lt;br&gt;然后claims（Map）设置（login_user_key,token）&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#a9b7c6&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; background-color: rgb(43, 43, 43);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-8" value="先生成uuid的token&lt;br&gt;再在登录用户设置该token&lt;br&gt;redis保存（login_tokens:uuid，loginUser）保存登录用户&lt;br&gt;然后claims（Map）设置（login_user_key,token）&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#a9b7c6&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; background-color: rgb(43, 43, 43);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="350" width="235" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-12" target="C3ZgItmLCDIt8Vd-u6fF-14">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-12" target="C3ZgItmLCDIt8Vd-u6fF-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-12" value="校验" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-12" value="校验" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="502.5" y="30" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-14" value="token过滤器获取登录用户&lt;br&gt;通过reuqest获取token，解析出出到uuid&lt;br&gt;再通过uuid与login_tokens组成key获取到登录用户" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-14" value="token过滤器获取登录用户&lt;br&gt;通过reuqest获取token，解析出出到uuid&lt;br&gt;再通过uuid与login_tokens组成key获取到登录用户&lt;br&gt;同时从登录用户中拿到过期时间如果过期时间不足20分钟时刷新过期时间" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="453.75" y="120" width="147.5" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="C3ZgItmLCDIt8Vd-u6fF-18">
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="527.5" y="390" as="sourcePoint" />
           </mxGeometry>
