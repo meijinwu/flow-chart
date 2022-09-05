@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T04:40:51.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="_AfZ2zJdvB2FhIGLmdpH" version="20.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T04:50:32.416Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="xvXkCFovEKyAN2kJrkC7" version="20.2.1" type="github">
   <diagram id="5VnuPamsWgsb6HcGCBo6" name="第 1 页">
     <mxGraphModel dx="1038" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="oj_4OXBv_ezFS3XAdGfc-7" value="从request中获取token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="427.5" y="201" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oj_4OXBv_ezFS3XAdGfc-8" value="token校验存在则&lt;br&gt;基于查询出访问令牌对象构建登录用户" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="oj_4OXBv_ezFS3XAdGfc-8" value="token校验存在则&lt;span style=&quot;background-color: initial;&quot;&gt;查询出访问令牌对象构建登录用户设置到spring security的SecurityContextHolder中&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="320" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="oj_4OXBv_ezFS3XAdGfc-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="oj_4OXBv_ezFS3XAdGfc-8" target="oj_4OXBv_ezFS3XAdGfc-8">
