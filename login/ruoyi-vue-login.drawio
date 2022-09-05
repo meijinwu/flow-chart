@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T01:24:54.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eCG5NjO39-bGLzpmW6f3" version="20.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T01:25:03.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3OpdEXgdo1NA-s3NUzv0" version="20.2.1" type="github">
   <diagram id="ZNL0ltOJPifKmFEmUaxB" name="第 1 页">
     <mxGraphModel dx="1038" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="77.5" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="C3ZgItmLCDIt8Vd-u6fF-6" value="把claims再通过JWT加密&lt;br&gt;返回前端的是JWTtoken" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="77.5" y="460" width="120" height="70" as="geometry" />
+          <mxGeometry x="77.5" y="480" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="C3ZgItmLCDIt8Vd-u6fF-8" value="先生成uuid的token&lt;br&gt;再在登录用户设置该token&lt;br&gt;redis保存（login_tokens:uuid，loginUser）保存登录用户&lt;br&gt;然后claims（Map）设置（login_user_key,token）&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#a9b7c6&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; background-color: rgb(43, 43, 43);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="350" width="235" height="100" as="geometry" />
