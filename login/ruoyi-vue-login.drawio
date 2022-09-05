@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T00:41:07.871Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.2.1" etag="1UKMW5BTU_CFUkuFg_7Z" type="github"><diagram id="ZNL0ltOJPifKmFEmUaxB">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-05T01:17:53.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="s8s2Dox3seVYvCvNO445" version="20.2.1" type="github">
+  <diagram id="ZNL0ltOJPifKmFEmUaxB" name="第 1 页">
+    <mxGraphModel dx="1038" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-1" target="C3ZgItmLCDIt8Vd-u6fF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="20" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-2" target="C3ZgItmLCDIt8Vd-u6fF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-2" value="输入用户名、密码、验证码" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="101.25" y="120" width="147.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-4" target="C3ZgItmLCDIt8Vd-u6fF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="C3ZgItmLCDIt8Vd-u6fF-4" target="C3ZgItmLCDIt8Vd-u6fF-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-4" value="校验通过，生成token" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-6" value="把claims再通过JWT加密&lt;br&gt;返回前端的是JWTtoken" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="115" y="440" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C3ZgItmLCDIt8Vd-u6fF-8" value="先生成uuid的token&lt;br&gt;再在登录用户设置该token&lt;br&gt;然后claims（Map）设置（login_user_key,token）&lt;font face=&quot;JetBrains Mono, monospace&quot; color=&quot;#a9b7c6&quot;&gt;&lt;span style=&quot;font-size: 13.0667px; background-color: rgb(43, 43, 43);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="330" width="235" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
