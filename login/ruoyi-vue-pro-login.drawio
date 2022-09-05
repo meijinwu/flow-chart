@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T04:25:23.688Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="zaKJULfcGsGUaW-H6Lkn" version="20.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T04:27:03.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Vb-ZUGC5_12WlCOAZ0_t" version="20.2.1" type="github">
   <diagram id="5VnuPamsWgsb6HcGCBo6" name="第 1 页">
     <mxGraphModel dx="1038" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,8 +16,8 @@
         <mxCell id="oj_4OXBv_ezFS3XAdGfc-2" value="用户名，密码，验证码校验" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="201" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="oj_4OXBv_ezFS3XAdGfc-4" value="创建令牌先创建刷新令牌再创建访问令牌" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="135" y="341" width="120" height="60" as="geometry" />
+        <mxCell id="oj_4OXBv_ezFS3XAdGfc-4" value="创建令牌先创建刷新令牌再创建访问令牌&lt;br&gt;访问令牌和刷新令牌都有持久化都数据库&lt;br&gt;访问令牌会额外放到redis" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="107.5" y="320" width="175" height="119" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
