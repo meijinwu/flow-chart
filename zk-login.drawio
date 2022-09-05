@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T03:20:00.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="x3ynh8CrS12CxwOgf-Ro" version="20.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T03:26:46.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WXBvqdlsi4JYIrF7CGaO" version="20.2.1" type="github">
   <diagram id="pKcCJxR37pdmhKcAJrMn" name="第 1 页">
     <mxGraphModel dx="1038" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,8 +16,17 @@
         <mxCell id="opHmej_8zfoE-EqWUUzj-2" value="用户名、密码、验证码校验，查询用户是否存在" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="85" y="150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="opHmej_8zfoE-EqWUUzj-4" value="把当前用户组装成登录用户当做session的一个属性缓存起来" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="85" y="250" width="120" height="50" as="geometry" />
+        <mxCell id="opHmej_8zfoE-EqWUUzj-4" value="把当前用户组装成登录用户（包含了角色部门权限等信息）当做session的一个属性缓存起来" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="opHmej_8zfoE-EqWUUzj-7" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="40" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="opHmej_8zfoE-EqWUUzj-8" value="用户名、密码、验证码校验，查询用户是否存在" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="opHmej_8zfoE-EqWUUzj-9" value="把当前用户组装成登录用户当做session的一个属性缓存起来" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
